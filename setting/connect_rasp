@@ -1,0 +1,6 @@
+1. 라즈베리파이 ip확인
+    라즈베리파이에 공유기 랜선 연결
+    터미널에 ifconfig 명령어 입력
+2. vscode로 원격 접속
+    extension에서 remote-SSH 다운
+    connect to host(remote-SSH) : pi@ip주소
