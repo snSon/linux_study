@@ -1,0 +1,14 @@
+워크큐 실행 단계
+1. 워크 초기화
+2. 워크 큐잉
+3. 워크 실행
+
+워크 초기화
+INIT_WORK()
+DECLARE_WORK()
+
+워크 자료구조 : work_struct
+초기화 시
+data = 0xFFFF_FFE0 : 초기화 후 실행하지 않은 상태
+entry = 0x0
+func = console_callback
